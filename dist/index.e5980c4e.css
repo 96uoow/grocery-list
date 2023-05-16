@@ -1,0 +1,106 @@
+body {
+  background-color: #fdf4f5;
+  position: relative;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.wrapper {
+  text-align: center;
+  width: 40%;
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0 10px;
+  display: flex;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%);
+  box-shadow: 1px 1px 15px #0003;
+}
+
+.wrapper h1 {
+  color: #ba90c6;
+  padding: 50px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.wrapper .field {
+  width: 80%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.wrapper .field input[type="text"] {
+  width: 80%;
+  height: 30px;
+  border: 3px solid #e8a0bf;
+  border-radius: 5px;
+  outline: none;
+  padding: 0 10px;
+}
+
+.wrapper .field input[type="submit"] {
+  width: 15%;
+  height: 35px;
+  color: #fff;
+  cursor: pointer;
+  background-color: #ba90c6;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: background-color, all .2s;
+}
+
+.wrapper .field input[type="submit"]:hover {
+  background-color: #66347f;
+}
+
+.wrapper ul {
+  width: 80%;
+  flex-grow: 1;
+  margin-top: 20px;
+}
+
+.wrapper ul li {
+  justify-content: space-between;
+  padding: 15px 10px;
+  line-height: 30px;
+  display: flex;
+}
+
+.wrapper li > div {
+  align-items: center;
+  display: flex;
+}
+
+.wrapper li .delete {
+  color: #ed2b2a;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.wrapper li .edit {
+  color: #38e54d;
+  cursor: pointer;
+  padding-bottom: 2px;
+  padding-right: 7px;
+  font-size: 22px;
+}
+
+.wrapper .clear {
+  color: #c21010;
+  cursor: pointer;
+  padding: 40px 0;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=index.e5980c4e.css.map */
